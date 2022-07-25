@@ -20,7 +20,14 @@
     "noEmit": true,
     "jsx": "react-jsx"
   },
+  
   "include": [
-    "src"
-  ]
+    "src", 
+    "src/custom.d.ts"
+  ],
+
+  "rules": {
+    "no-unused-expressions": "off",
+    "@typescript-eslint/no-unused-expressions": 2
+  }
 }
