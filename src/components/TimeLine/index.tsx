@@ -17,7 +17,9 @@ export function TimeLine(){
     let schoolIconStyles = {background:"#f9c74f"}
     
     
-    console.log(experenceElements)
+    experenceElements.sort(function(a, b) { 
+        return a.id - b.id 
+      });
     return(
         
             <Container >            

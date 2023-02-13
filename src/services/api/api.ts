@@ -1,6 +1,6 @@
 export const experenceElements = [
     {
-        id:1,
+        id:4,
         title:'Estagiário de programação / Desenvolvedor Full Stack Jr. ',
         company: 'K2Media',
         date: 'jan/2013 - junho/2013',
@@ -10,7 +10,7 @@ export const experenceElements = [
     },
 
     {
-        id:2,
+        id:3,
         title:'Estágio - Desenvolvedor Jr.',
         company: 'Service One',
         date: 'July/2013 - December/2013',
@@ -20,7 +20,7 @@ export const experenceElements = [
         buttonText: 'Teste',
     },
     {
-        id:5,
+        id:2,
         title:'Desenvolvedor Front-end Jr.',
         company: 'Octoshop',
         date: 'April/2022 - Atual',
@@ -32,6 +32,18 @@ export const experenceElements = [
         '- Check-out Octoshop.' +
         '- Sistema de avaliação.'+
         ' Ferramentas: HTML, CSS(SCSS), JavaScript, PHP(Magento) e Bibliotecas',
+        icon: 'work',
+    },
+    {
+        id:1,
+        title:'Desenvolvedor Front-end',
+        company: 'Codeby',
+        date: 'Julho/2022 - Janeiro/2023',
+        description: 
+        '- Atuação em implementações e implantações de novas funcionalidades, suporte especializado no Front end para lojas de e-commerce, utilização de soluções modernas como VTEX CMS, VTEX IO, Shopify e Linx Integration'+
+        '- Criação e customização de páginas web'+
+        '- Ferramentas usadas: HTML, CSS (SCSS), JavaScript, TypeScript, ReactJS, Node.JS, JQuery, GraphQL, configuração de aplicativos shopify (langify), Gitlab/Github.'+
+        'Integrações de Serviços web, Swippe.js, Glide.js, Zendesk, Handtalk, Hubspot.',
         icon: 'work',
     },
 
