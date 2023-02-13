@@ -1,6 +1,6 @@
 import { Container} from "./styles";
 
-import {experence_elements, education_elements} from "./elementsTimeLine";
+import {experenceElements, educationElements} from "../../services/api/api";
 
 import { VerticalTimeline, VerticalTimelineElement } from 'react-vertical-timeline-component';
 
@@ -17,6 +17,7 @@ export function TimeLine(){
     let schoolIconStyles = {background:"#f9c74f"}
     
     
+    console.log(experenceElements)
     return(
         
             <Container >            
@@ -25,7 +26,7 @@ export function TimeLine(){
                 
                     <VerticalTimeline >
                         {
-                            education_elements.map((el:any)=>{                      
+                            educationElements.map((el:any)=>{                      
                                 let isWorkIcon = el.icon === 'work';
                             
 
@@ -63,7 +64,7 @@ export function TimeLine(){
                 
                     <VerticalTimeline >
                         {
-                            experence_elements.map((el:any)=>{                      
+                            experenceElements.map((el:any)=>{                      
                                 let isWorkIcon = el.icon === 'work';
                                 
 

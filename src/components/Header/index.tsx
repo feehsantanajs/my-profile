@@ -1,13 +1,11 @@
 
 import { Container } from "./styles";
 
-import profileImg from '../../assets/profile.png'
-
 export function Header(){
     return(
         <Container>
             <div className="image">
-                <img src="https://github.com/feelipesantana.png" alt="Felipe Santana Imagem"  width="100%" height="100%" />
+                <img src="https://github.com/felipesantanajs.png" alt="Felipe Santana Imagem"  width="100%" height="100%" />
             </div>
             <h2>Hi everyone,<br /> I'm Felipe Santana | Web Developer</h2>
 
